@@ -1,27 +1,29 @@
-body{
+body {
 	margin: 0;
 }
 
 /*parent layout-------------------------------------*/
-.login-page{
+.login-page {
 	background-color: #F2F4F7;
 	overflow: hidden;
 	padding: 130px 0 180px 0;
 }
-.container{
+
+.container {
 	width: 980px;
 	margin: auto;
 	font-family: arial;
 }
 
-.brand-area{
+.brand-area {
 	width: 580px;
 }
 
-.brand-area{
+.brand-area {
 	float: left;
 }
-.form-area{
+
+.form-area {
 	overflow: hidden;
 	width: 400px;
 }
@@ -31,14 +33,15 @@ body{
 
 /*brand-area-----------------------------------------*/
 
-.brand-logo{
+.brand-logo {
 	padding-top: 46px;
 }
-.brand-logo img{
+
+.brand-logo img {
 	margin-left: -30px;
 }
 
-.brand-text h2{
+.brand-text h2 {
 	width: 500px;
 	font-weight: 400;
 	font-size: 28px;
@@ -49,15 +52,15 @@ body{
 
 /*Form-area------------------------------------------*/
 
-.form-box{
+.form-box {
 	background-color: #FFFFFF;
 	padding: 16px;
 	border-radius: 8px;
-	box-shadow: 0 2px 4px #0000001a,0 8px 16px #0000001a;
+	box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
 	margin-bottom: 30px;
 }
 
-.form-box input{
+.form-box input {
 	display: block;
 	width: 100%;
 	padding: 15px;
@@ -66,16 +69,16 @@ body{
 	border-radius: 7px;
 }
 
-.form-box input[type="text"]{
+.form-box input[type="text"] {
 	margin-bottom: 10px;
 }
 
 .form-box input[type="text"],
-.form-box input[type="password"]{
+.form-box input[type="password"] {
 	width: 91.2%;
 }
 
-.form-box input[type="submit"]{
+.form-box input[type="submit"] {
 	margin: 15px 0;
 	cursor: pointer;
 	background-color: #0866FF;
@@ -86,23 +89,27 @@ body{
 	padding: 14px;
 }
 
-.form-box #forget{
+.form-box #forget {
 	color: #0866ff;
-	font-size: ;
 	display: block;
 	text-align: center;
 	text-decoration: none;
 	font-size: 14px;
 }
 
+.form-box #forget:hover,
+.form-area #create-link:hover {
+	text-decoration: underline;
+}
 
-#divide-ruler{
+
+#divide-ruler {
 	margin: 20px 0;
 	background-color: #C4C6C8;
 	height: 1px;
 }
 
-#create-button{
+#create-button {
 	background-color: #36A420;
 	padding: 16px;
 	text-decoration: none;
@@ -111,20 +118,21 @@ body{
 	font-weight: bold;
 	border-radius: 6px;
 }
-.button-container{
+
+.button-container {
 	text-align: center;
 	padding: 20px 0;
 }
 
 
-#create-link{
+#create-link {
 	font-weight: bold;
 	text-decoration: none;
 	color: #000000;
 	font-size: 14px;
 }
 
-#create-page{
+#create-page {
 	text-align: center;
 	font-size: 14px;
 }
@@ -132,58 +140,64 @@ body{
 
 
 /*Footer Area-------------------------------------------------------------*/
-.login-page-footer .container{
+.login-page-footer .container {
 	margin-top: 20px;
 }
 
 
-.language-list ul{
+.language-list ul {
 	margin: 0;
 	padding: 0;
 }
-.language-list ul li{
+
+.language-list ul li {
 	float: left;
 	list-style: none;
 	margin-right: 10px;
 }
-.language-list{
+
+.language-list {
 	overflow: hidden;
 	padding: 5px 0 5px 0;
 }
 
 
-#ruler{
+#ruler {
 	height: 0.5px;
 	background-color: #C4C6C8;
 	margin: 5px 0 8px 0;
 }
 
-.footer-options ul{
+.footer-options ul {
 	margin: 0;
 	padding: 0;
 }
-.footer-options ul li{
+
+.footer-options ul li {
 	float: left;
 	list-style: none;
 	margin-right: 20px;
 }
-.footer-options{
+
+.footer-options {
 	overflow: hidden;
 }
 
 
-.language-list a, .footer-options a, .copyright{
+.language-list a,
+.footer-options a,
+.copyright {
 	text-decoration: none;
 	color: #8A8D91;
 	font-size: 12px;
 }
 
 
-.copyright{
+.copyright {
 	margin: 20px 0;
 }
 
-#plus-icon{
+#plus-icon {
 	border: 1px solid #8A8DAD;
 	padding: 0 8px;
 	font-size: 18px;
@@ -194,41 +208,49 @@ body{
 
 /*Media Responsive---------------------------------------------------------*/
 
-@Media (max-width: 1075px){
-	.brand-text{
+@Media (max-width: 1075px) {
+	.brand-text {
 		width: 400px;
 	}
-	.brand-text h2{
+
+	.brand-text h2 {
 		width: 400px;
 		font-size: 24px;
 	}
-	.container{
+
+	.container {
 		width: auto;
 		margin: 0 4%;
 	}
-	.brand-area{
+
+	.brand-area {
 		width: auto;
 	}
-	.form-area{
+
+	.form-area {
 		float: right;
 	}
 }
 
-@Media (max-width: 900px){
-	.login-page{
+@Media (max-width: 900px) {
+	.login-page {
 		padding: 0 0 100px 0;
 	}
-	.brand-logo{
+
+	.brand-logo {
 		padding: 0;
 		text-align: center;
 	}
-	.brand-logo img{
+
+	.brand-logo img {
 		margin: 0;
 	}
-	.brand-text{
+
+	.brand-text {
 		text-align: center;
 	}
-	.brand-area{
+
+	.brand-area {
 		width: 400px;
 		float: none;
 		margin: auto;
@@ -236,23 +258,24 @@ body{
 	}
 
 
-	.form-area{
+	.form-area {
 		float: none;
 		margin: auto;
 	}
-	.form-box{
+
+	.form-box {
 		margin-top: 20px;
 	}
 }
 
-@Media (max-width: 500px){
-	.login-page-footer .container{
+@Media (max-width: 500px) {
+	.login-page-footer .container {
 		margin: 0 8%;
 	}
 }
 
-@Media (max-width: 562px){
-	.copyright{
+@Media (max-width: 562px) {
+	.copyright {
 		margin-top: 37px;
 	}
 }
