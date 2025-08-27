@@ -106,7 +106,7 @@ body {
 #divide-ruler {
 	margin: 20px 0;
 	background-color: #C4C6C8;
-	+height: 1px;
+	height: 1px;
 }
 
 #create-button {
